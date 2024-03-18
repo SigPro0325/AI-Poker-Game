@@ -24,7 +24,7 @@ To start a game, simply run the script and follow the prompts to set the number 
 
 ### Example
 
-```python
+python
 num_human_players = int(input("How many human players will play? "))
 num_ai_players = int(input("How many AI players will play? "))
 game = TexasHoldem(num_human_players, num_ai_players)
